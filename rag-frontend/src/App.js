@@ -89,7 +89,7 @@ return (
 
       <hr style={styles.divider} /> 
       
-      {/* Question and Ask Section - Now in a white box */}
+      {/* Question and Ask Section*/}
       <div style={styles.sectionBox}>
         <h2 style={styles.sectionTitle}>Ask Your Question</h2>
         <div style={styles.inputContainer}>
@@ -136,15 +136,15 @@ const styles = {
     marginBottom: "30px",
   },
   
-  // New/Updated Section Styles
-  sectionBox: { // Renamed from uploadSection and reused for the Ask section
+  // Section Styles
+  sectionBox: { 
     padding: "20px",
     backgroundColor: "white",
     borderRadius: "10px",
     boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
     marginTop: "10px",
   },
-  sectionTitle: { // Renamed from uploadSectionTitle and reused for the Ask section
+  sectionTitle: {
     textAlign: "center",
     color: "#333",
     marginBottom: "30px",
