@@ -69,7 +69,7 @@ return (
       
       {/* File Upload Section */}
       <div style={styles.sectionBox}>
-        <h2 style={styles.sectionTitle}>Upload Knowledge Base</h2>
+        <h2 style={styles.sectionTitle}>Upload to Knowledge Base</h2>
         <div style={styles.uploadContainer}>
           <input
             type="file"
