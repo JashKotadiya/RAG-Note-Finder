@@ -215,20 +215,22 @@ const styles = {
 
   // Result Styles
   resultContainer: {
-    marginTop: "30px",
-    padding: "20px",
-    backgroundColor: "white",
-    borderRadius: "10px",
-    boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
-  },
-  resultTitle: {
-    marginBottom: "5px",
-    color: "#555",
-  },
-  resultText: {
-    marginBottom: "15px",
-    color: "#333",
-  },
+  marginTop: "30px",
+  padding: "20px",
+  backgroundColor: "white",
+  borderRadius: "10px",
+  boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+},
+
+resultTitle: {
+  margin: "10px 0 4px 0",   // less top, tiny bottom
+  color: "#555",
+},
+
+resultText: {
+  margin: "0 0 10px 0",     // remove unnecessary spacing
+  color: "#333",
+},
 };
 
 export default App;
