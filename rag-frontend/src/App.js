@@ -223,12 +223,12 @@ const styles = {
 },
 
 resultTitle: {
-  margin: "10px 0 4px 0",   // less top, tiny bottom
+  margin: "10px 0 4px 0",   
   color: "#555",
 },
 
 resultText: {
-  margin: "0 0 10px 0",     // remove unnecessary spacing
+  margin: "0 0 10px 0",   
   color: "#333",
 },
 };
